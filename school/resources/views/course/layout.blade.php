@@ -15,7 +15,14 @@
     <div class="jumbotron text-center">
         <h1>Course Registration</h1>
         <p>Register for Course</p>
+
+        <form action="{{ route('logout') }}" method="post">
+        @csrf
+            <button class="btn btn-primary" type="submit">Logout</button>
+        </form>
+
     </div>
+
 
     <div class="container">
         @yield('content')
