@@ -27,8 +27,13 @@
         @yield('content')
     </div>
 
-    <div class="jumbotron text-center" style="margin-bottom: 0;">
-        <p>school course registration</p>
+    <div style="margin-bottom: 0px; background-color: rgb(43, 28, 51); color: white; padding: 20px;" class="container-fluid">
+        <div class="row justify-content-center">
+            <p>Class Course Registration</p>
+        </div>
     </div>
+    <!-- <div class="jumbotron text-center" style="margin-bottom: 0;">
+        <p>school course registration</p>
+    </div> -->
 </body>
 </html>
