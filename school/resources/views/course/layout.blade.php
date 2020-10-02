@@ -14,7 +14,6 @@
 <body>
     <div class="jumbotron text-center">
         <h1>Course Registration</h1>
-        <p>Register for Course</p>
 
         <form action="{{ route('logout') }}" method="post">
         @csrf

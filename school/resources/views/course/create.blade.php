@@ -10,7 +10,7 @@
 
 @if ($errors->any())
         <div class="alert alert-danger">
-            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+            <strong>There were some problems with your input.</strong> <br><br>
             <ul>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
@@ -28,7 +28,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <label for="course_name">Course Name</label>
-                <input type="text" name="course_name" class="form-control" placeholder="Enter the course name">
+                <input type="text" name="course_name" class="form-control" placeholder="Enter the course name" autofocus >
             </div>
     
             <div class="form-group">

@@ -36,7 +36,7 @@
 
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6">
-                    <button class="btn btn-primary" type="submit">Register</button>
+                    <button class="btn btn-primary" type="submit">Update</button>
                 </div>
 
                 <div class="col-xs-6 col-sm-6 col-md-6">

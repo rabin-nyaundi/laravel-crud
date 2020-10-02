@@ -9,7 +9,7 @@
 </div>
 
 <div class="pull-right">
-    <a style="margin: 10px;" href="{{ route ('course.create')}}" class="btn btn-primary">Create Course</a>
+    <a style="margin: 10px;" href="{{ route ('course.create')}}" class="btn btn-primary">Register New Course</a>
 </div>
 
 @if ($message = Session::get('success'))
@@ -20,10 +20,10 @@
 
 <table class="table table-bordered">
     <tr>
-        <th>#</th>
+        <th>Code</th>
         <th>Course Name</th>
         <th>Course Teacher</th>
-        <th>No of hours</th>
+        <th>Total of hours</th>
         <th>Action</th>
     </tr>
     
